@@ -9,7 +9,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Header*/
+
+a {
+    text-decoration: none;
+}
+
+/*Header*/
 header {
     background-color: white;
     padding-left: 20px;
@@ -23,4 +28,55 @@ header h1 {
     font-size: 50px;
     line-height: 100px;
     vertical-align: super;
+}
+
+/*Bottoni*/
+.buttons {
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 3px;
+    padding: 10px 70px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.button-1 {
+    display: inline-block;
+    background-color: #47adf1;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px; 
+    text-align: center;
+    line-height: 40px;
+}
+
+.button-2 {
+    display: inline-block;
+    background-color: white;
+    height: 40px;
+    width: 120px;
+    border: 2px solid #ced3d7;
+    border-radius: 5px; 
+    text-align: center;
+    line-height: 35px;
+}
+
+.button-1 a {
+    color: white;
+}
+
+.button-2 a {
+    color: #ced3d7;
+}
+
+/*Main*/
+
+main {
+    background-color: white;
+    margin: 0px 300px;
+    padding: 10px 70px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
